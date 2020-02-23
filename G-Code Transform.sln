@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G-Code Transform", "G-Code Transform\G-Code Transform.csproj", "{BC369860-6BBC-4463-BD64-F8BAFD32AA7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransformMatrixClass", "TransformMatrixClass\TransformMatrixClass.csproj", "{FDF4E54B-599F-42D6-9ABF-548E94038774}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{D20D1D01-CBAB-4060-AC62-037D3B7ACDD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GCodeParser", "GCodeParser\GCodeParser.csproj", "{FE006BC5-E37C-4F5B-9F50-4622C1E9C869}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC369860-6BBC-4463-BD64-F8BAFD32AA7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC369860-6BBC-4463-BD64-F8BAFD32AA7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC369860-6BBC-4463-BD64-F8BAFD32AA7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC369860-6BBC-4463-BD64-F8BAFD32AA7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDF4E54B-599F-42D6-9ABF-548E94038774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDF4E54B-599F-42D6-9ABF-548E94038774}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDF4E54B-599F-42D6-9ABF-548E94038774}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDF4E54B-599F-42D6-9ABF-548E94038774}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D20D1D01-CBAB-4060-AC62-037D3B7ACDD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D20D1D01-CBAB-4060-AC62-037D3B7ACDD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D20D1D01-CBAB-4060-AC62-037D3B7ACDD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D20D1D01-CBAB-4060-AC62-037D3B7ACDD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE006BC5-E37C-4F5B-9F50-4622C1E9C869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE006BC5-E37C-4F5B-9F50-4622C1E9C869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE006BC5-E37C-4F5B-9F50-4622C1E9C869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE006BC5-E37C-4F5B-9F50-4622C1E9C869}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3BBF626D-5E6A-4E27-BF6B-C0012C1C89DD}
+	EndGlobalSection
+EndGlobal
